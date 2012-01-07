@@ -50,6 +50,9 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLo
 " Or use vividchalk
 colorscheme vividchalk 
 
+" set the starting foldlevel to 4 levels deep
+set foldlevelstart=4
+
 " Tab mappings.
 map <leader>tt :tabnew<cr>
 map <leader>te :tabedit
