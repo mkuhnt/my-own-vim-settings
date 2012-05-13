@@ -88,4 +88,8 @@ map <leader>tm :tabmove
 autocmd FileType ruby setlocal foldmethod=syntax
 autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
 
+" Improve syntax highlighting
+au BufRead,BufNewFile Gemfile set filetype=ruby
+au BufRead,BufNewFile *.md set filetype=markdown
+
 call pathogen#infect()
