@@ -55,8 +55,10 @@ set incsearch
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
-" use railscast colorscheme as default 
-colorscheme github 
+" Color scheme
+colorscheme vividchalk
+highlight NonText guibg=#060606
+highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
 " set the starting foldlevel to 4 levels deep
 set foldlevelstart=5
