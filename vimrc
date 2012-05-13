@@ -42,6 +42,10 @@ set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
 set cursorline
 " hi CursorLine cterm=NONE ctermbg=black
 
+" Set the tags file search order
+set tags=./tags;
+
+
 " UNCOMMENT TO USE
 set expandtab
 set tabstop=2
