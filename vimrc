@@ -60,12 +60,12 @@ set incsearch
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 " Color scheme
-colorscheme railscasts
+colorscheme github
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
 " set the starting foldlevel to 4 levels deep
-set foldlevelstart=5
+" set foldlevelstart=5
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
